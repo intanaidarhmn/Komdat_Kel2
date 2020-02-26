@@ -22,6 +22,15 @@
   </p>
 
 # Instalasi
+
+# Konfigurasi
+
+# Otomatisasi
+## Instalasi Web Server Virtual
+
+referensinya sama kayak punya kakaknya
+
+## Instalasi Metabase
 1. Install Java 11 pada Ubuntu 18.04
 
 ```text
@@ -41,15 +50,6 @@ $ mysql -u root -p
 ```
 
 lanjutkeun
-
-
-# Konfigurasi
-
-# Otomatisasi
-## Instalasi Web Server Virtual
-
-
-## Instalasi Metabase
 
 # Cara Pemakaian
 
