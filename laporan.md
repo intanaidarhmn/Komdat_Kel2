@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://1.bp.blogspot.com/-3za0XKJuLSc/WNfUgBtwwFI/AAAAAAAAGiQ/ADAfpkEiUn0w6FHDjMpt-i3PzYyMBtNQQCLcB/s1600/1.png"></h1>
+<h1 align="center"><img src="https://icehrm.s3.amazonaws.com/web/EmpInfo.png"></h1>
 
 
 # Sekilas Tentang
