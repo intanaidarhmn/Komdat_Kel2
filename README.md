@@ -3,12 +3,12 @@
     <img src="https://a.fsdn.com/con/app/proj/icehrm/screenshots/Screen%20Shot%202016-02-09%20at%206.02.27%20AM.png/max/max/1" alt="ice hrm" width=400 height=400>
   </a>
 
-# Apa itu Ice Hrm?
-
-  <h3>Ice Hrm</h3>
+# Apa itu IceHRM?
+[`^ back to top ^`](#)
+  <h3>IceHRM</h3>
 
   <p>
-  Ice Hrm adalah sistem manajemen karyawan berbasis perangkat lunak
+  IceHRM adalah sistem manajemen karyawan berbasis perangkat lunak
   Human Resources Management (HRM) yang memungkinkan perusahaan untuk memusatkan
   informasi rahasia karyawan, menetapkan izin akses kepada personel yang 
   berwenang untuk memastikan bahwa informasi karyawan aman dan dapat diakses
@@ -18,27 +18,22 @@
 </p>
 
 # Instalasi
-
+[`^ back to top ^`](#)
 Requirements : Untuk menginstall Ice HRM membutuhkan beberapa hal, yaitu :
 
 1. Apache2
 2. MariaDB (database)
 3. PHP 7.2
 
-# Konfigurasi
-
-Bisa ngapain aja ga si
-
-# Otomatisasi
-## Instalasi Web Server Virtual
-
-https://github.com/auriza/komdat-lab/blob/master/p01.md
+## Proses Instalasi 
+#### Instalasi Web Server Virtual
+<em>Sumber: https://github.com/auriza/komdat-lab/blob/master/p01.md <em>
 
 1. Masuk ke 'Settings -> Network -> Advanced -> Port Forwarding' dan tambahkan dua aturan berikut.
 
 2. Dengan demikian, jika kita mengakses port 8000 di host, maka akan diteruskan ke port 80 di guest (VM). Begitu juga dengan SSH, jika kita mengakses port 2200 di host, maka akan diteruskan ke port 22 di guest.
 
-Setelah semuanya beres, jalankan VM dengan mode headless (tanpa tampilan).
+3. Setelah semuanya beres, jalankan VM dengan mode headless (tanpa tampilan).
 
 : Aturan port forwarding
 
@@ -62,9 +57,9 @@ sudo apt install php-mysql php-gd php-mbstring php-xml php-curl
 sudo service apache2 restart
 ```
 
-Cek instalasi Apache dengan membuka laman http://localhost:8000.
+4. Cek instalasi Apache dengan membuka laman http://localhost:8000.
 
-## Instalasi Ice HRM
+#### Instalasi Ice HRM
 1. Install Apache2 HTTP Server
 
 ```text
@@ -213,14 +208,14 @@ sesuaikan nama domain dengan nama domain masing-masing.
 ```
 Simpan kemudian exit.
 
-7. Enable the ICE HRM
+7. Aktifkan ICE HRM
 
 ```text
 sudo a2ensite icehrm.conf
 sudo a2enmod rewrite
 ```
 
-8. Restart Apache2
+8. Muat ulang Apache2
 
 ```text
 sudo systemctl restart apache2.service
@@ -237,6 +232,17 @@ Anda dapat login dengan menggunakan username dan password di bawah ini:
 
 username: admin
 password: admin
+
+
+# Konfigurasi
+
+Bisa ngapain aja ga si
+
+# Otomatisasi
+
+
+
+
 
 
 # Cara Pemakaian
