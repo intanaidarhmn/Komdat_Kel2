@@ -19,6 +19,7 @@
 
 # Instalasi
 [`^ back to top ^`](#)
+
 Requirements : Untuk menginstall Ice HRM membutuhkan beberapa hal, yaitu :
 
 1. Apache2
@@ -27,7 +28,7 @@ Requirements : Untuk menginstall Ice HRM membutuhkan beberapa hal, yaitu :
 
 ## Proses Instalasi 
 #### Instalasi Web Server Virtual
-<em>Sumber: https://github.com/auriza/komdat-lab/blob/master/p01.md <em>
+<em>Sumber: https://github.com/auriza/komdat-lab/blob/master/p01.md<em>
 
 1. Masuk ke 'Settings -> Network -> Advanced -> Port Forwarding' dan tambahkan dua aturan berikut.
 
