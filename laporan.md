@@ -18,53 +18,12 @@
 
 # Instalasi
 
-Requirements : Untuk menginstall Ice HRM membutuhkan beberapa hal, yaitu :
-
-1. Apache2
-2. MariaDB (database)
-3. PHP 7.2
-4. requirements.txt yang berisi :
-
-...
-
 # Konfigurasi
-
-Bisa ngapain aja ga si
 
 # Otomatisasi
 ## Instalasi Web Server Virtual
 
-https://github.com/auriza/komdat-lab/blob/master/p01.md
-
-1. Masuk ke 'Settings -> Network -> Advanced -> Port Forwarding' dan tambahkan dua aturan berikut.
-
-2. Dengan demikian, jika kita mengakses port 8000 di host, maka akan diteruskan ke port 80 di guest (VM). Begitu juga dengan SSH, jika kita mengakses port 2200 di host, maka akan diteruskan ke port 22 di guest.
-
-Setelah semuanya beres, jalankan VM dengan mode headless (tanpa tampilan).
-
-: Aturan port forwarding
-
-Buka terminal di komputer host, dan akses VM dengan username dan password student.
-
-```text
-# akses vm dari host
-ssh student@localhost -p 2200
-
-# set repo
-sudo tee /etc/apt/sources.list << !
-deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic          main restricted universe multiverse
-deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-updates  main restricted universe multiverse
-deb http://repo.apps.cs.ipb.ac.id/ubuntu bionic-security main restricted universe multiverse
-!
-
-# instal apache, mysql, php
-sudo apt update
-sudo apt install apache2 php mysql-server
-sudo apt install php-mysql php-gd php-mbstring php-xml php-curl
-sudo service apache2 restart
-```
-
-Cek instalasi Apache dengan membuka laman http://localhost:8000.
+referensinya sama kayak punya kakaknya
 
 ## Instalasi Ice HRM
 1. Install Apache2 HTTP Server
@@ -250,19 +209,7 @@ password: admin
 
 # Cara Pemakaian
 
-...
-
 # Pembahasan
-
-https://entrepreneursquad.id/6-tools-berbasis-teknologi-untuk-hrd/
-
-Kelebihan dan kekurangan iceHRM
-
-1. Penggunaan iceHRM menjadi mudah karena lebih modern interfacenya. 
-2. Beberapa fitur unggulannya adalah leave management, tracking waktu dan kehadiran, informasi karyawan, serta upload dokumen sekaligus download report dalam format CSV.
-3. Support yang mumpuni juga menjadikan iceHRM adalah opsi kuat untuk software kehadiran gratis/open source. Karena sasaran utama adalah usaha kecil dan menengah, jadi software ini mungkin bukan yang terbaik untuk berfungsi maksimal di perusahaan besar.
-
-
 
 # Referensi
 
