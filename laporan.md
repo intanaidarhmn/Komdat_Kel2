@@ -1,15 +1,13 @@
-<p align="center">
-  <a href="">
-    <img src="https://github.com/intanaidarhmn/Komdat_Kel2/blob/master/ice hrm.png" alt="ice hrm" width=400 height=400>
-  </a>
+<h1 align="center"><img src="https://icehrm.s3.amazonaws.com/web/EmpInfo.png"></h1>
+
 
 # Sekilas Tentang
 
   <h3>Ice HRM</h3>
 
   <p>
-  Sistem manajemen karyawan IceHrm memungkinkan perusahaan untuk memusatkan
-  informasi karyawan rahasia dan menetapkan izin akses kepada personel yang 
+  Ice HRM adalah sistem manajemen sumber daya manusia untuk organisasi kecil dan menengah. Ini memiliki UI kaya yang dibangun dengan PHP dan Java Script. Sistem ini diimplementasikan dengan arsitektur modular yang membuatnya dapat diperpanjang dan disesuaikan dengan mudah.Sistem manajemen karyawan IceHrm memungkinkan perusahaan untuk memusatkan
+  informasi karyawan secara rahasia dan menetapkan izin akses kepada personel yang 
   berwenang untuk memastikan bahwa informasi karyawan aman dan dapat diakses.
   </p>
   
