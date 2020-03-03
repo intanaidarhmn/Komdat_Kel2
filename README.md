@@ -8,12 +8,13 @@
   <h3>Ice Hrm</h3>
 
   <p>
-  Ice Hrm adalah sistem manajemen karyawan IceHrm memungkinkan perusahaan untuk memusatkan
-  informasi karyawan rahasia dan menetapkan izin akses kepada personel yang 
-  berwenang untuk memastikan bahwa informasi karyawan aman dan dapat diakses.
+  Ice Hrm adalah sistem manajemen karyawan berbasis perangkat lunak
+  Human Resources Management (HRM) yang memungkinkan perusahaan untuk memusatkan
+  informasi rahasia karyawan, menetapkan izin akses kepada personel yang 
+  berwenang untuk memastikan bahwa informasi karyawan aman dan dapat diakses
+  dan mengelola kegiatan Sumber Daya Manusia dengan baik.
   </p>
   
-  <p>Sumber : https://icehrm.com/</p>
 </p>
 
 # Instalasi
@@ -243,17 +244,15 @@ password: admin
 ...
 
 # Pembahasan
-
-https://entrepreneursquad.id/6-tools-berbasis-teknologi-untuk-hrd/
-
 Kelebihan dan kekurangan iceHRM
 
 1. Penggunaan iceHRM menjadi mudah karena lebih modern interfacenya. 
 2. Beberapa fitur unggulannya adalah leave management, tracking waktu dan kehadiran, informasi karyawan, serta upload dokumen sekaligus download report dalam format CSV.
 3. Support yang mumpuni juga menjadikan iceHRM adalah opsi kuat untuk software kehadiran gratis/open source. Karena sasaran utama adalah usaha kecil dan menengah, jadi software ini mungkin bukan yang terbaik untuk berfungsi maksimal di perusahaan besar.
 
-
+Sasaran dari aplikasi ini adalah untuk usaha kecil dan menengah, jadi aplikasi ini mungkin bukan yang terbaik untuk usaha menengah ke atas atau bagi perusahaan perusahaan yang besar.
 
 # Referensi
-
-
+1. https://icehrm.com/
+2. https://github.com/gamonoid/icehrm
+3. https://entrepreneursquad.id/6-tools-berbasis-teknologi-untuk-hrd/
