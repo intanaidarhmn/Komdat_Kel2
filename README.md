@@ -280,8 +280,11 @@ Kita harus mulai dari sini, Anda akan membuat perusahaan yang memiliki dua depar
 5. Bahasa daftar bahasa daftar yang perusahaan Anda harapkan untuk digunakan karyawan Anda.
 
 # Maintenance
-
-
+#### Tidak dapat memverifikasi *Instance Key*
+Jika  mengalami kesulitan memverifikasi *Instance Key*, silakan akses basis data IceHRM Anda melalui klien konsol mysql atau manajer basis data grafis seperti PHPMyAdmin dan jalankan perintah sql berikut.
+```text
+Update Settings set value = md5(value) where name = 'Instance : ID';
+```
 
 
 
@@ -298,7 +301,7 @@ Seperti *manage* perusahaan, karyawan, kehadiran, *user*, konfigurasi aplikasi, 
 
 #### 3. Contoh pemakaian fungsi aplikasi.
 Pada aplikasi IceHRM ini, *user* bisa menambahkan data pegawai *Human Resource Development* untuk bisa melanjutkan fungsi lainnya. Karena ini merupakan salah satu fungsi utama dari IceHRM.
-![Victory](https://github.com/intanaidarhmn/Komdat_Kel2/blob/master/pict/2020-03-03%20(4).png
+![Victory](https://github.com/intanaidarhmn/Komdat_Kel2/blob/master/pict/2020-03-03%20(4).png)
 
 #### Attendance Tracking
 Menginstal aplikasi pelacakan kehadiran IceHrm di ponsel membantu mengendalikan pekerjaan. Ini sangat berguna bagi karyawan yang bekerja di situs yang tidak memiliki akses ke perangkat lunak IceHrm, bagi mereka yang meninggalkan kantor untuk bertemu klien atau untuk orang yang sering bepergian. IceHrm mendukung kehadiran aplikasi seluler dan direktori staf. Pendukung aplikasi seluler IceHrm baru untuk melacak lokasi GPS bersama dengan pelacakan kehadiran. Versi seluler dari sistem pelacakan kehadiran nyaman, mudah diakses dan dapat membawanya ke mana pun.
@@ -308,13 +311,13 @@ Menginstal aplikasi pelacakan kehadiran IceHrm di ponsel membantu mengendalikan 
 2. Buka Modul Sistem
 3. Klik pada opsi Pengaturan
 4. Lalu buka tab Kehadiran, Anda akan dapat menemukan Kehadiran: Meminta Lokasi Kehadiran di Seluler dan mengaktifkannya ke Ya
-![Victory] (https://github.com/intanaidarhmn/Komdat_Kel2/blob/master/pict/image.png)
+![Victory](https://github.com/intanaidarhmn/Komdat_Kel2/blob/master/pict/image.png)
 
 #### Bagaimana cara Admin melihat detil kehadiran pegawai beserta lokasinya?
 1. Masuk ke akun Admin IceHrm
 2. Buka Modul Kehadiran di Dashboard atau Anda dapat pergi ke Modul Karyawan dan klik pada opsi Kehadiran Monitor
 3. Buka *employee*, Anda ingin melihat detail lokasi dan klik pada ikon Peta untuk memeriksa IP lokasi punch-in karyawan, koordinat dan gambar peta
-![Victory] (https://github.com/intanaidarhmn/Komdat_Kel2/blob/master/pict/2.png)
+![Victory](https://github.com/intanaidarhmn/Komdat_Kel2/blob/master/pict/2.png)
 
 # Pembahasan
 Kelebihan dan kekurangan iceHRM
