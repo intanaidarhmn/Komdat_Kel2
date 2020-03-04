@@ -267,6 +267,20 @@ Kita harus mulai dari sini, Anda akan membuat perusahaan yang memiliki dua depar
 
 <h1 align="center"><img src="https://0fc17599-a-49dc2a74-s-sites.googlegroups.com/a/gamonoid.com/ice-hrm/getting-started/pay%20grade.png?attachauth=ANoY7cq2TMOa41IzXicegFoRnvWNrUzj2CkZIWQYVb_3cE4DTQLuirdbq4j1Vsr08yfTAQM3573At4Wij8zVhf_Fve0q_1dU7FTBm2uQvwGtwEs8IKPV2pjTOM5lNj9S46MBl-uoy20gp9hcOE2liptOiYcp5m2Yq_XJR5__KclrnYJypYFkjFfLf-JL3QZCsDhkgRkL2SrMT7f-0eHS5ABcfMsYOY9ge57b_fnJWEbBj1YgAzvi_Kk%3D&attredirects=0"></h1>
 
+4. Pilih tab Status Pekerjaan dan tambahkan status pekerjaan "Penuh Waktu Permanen"
+
+
+### 3. Memperbarui detail utama untuk Keterampilan / Pendidikan / Sertifikasi dan Bahasa
+
+1. Seperti yang Anda lakukan pada langkah sebelumnya, pilih menu "Admin-> Kualifikasi" dan tambahkan Keterampilan, Pendidikan, Sertifikasi, dan Bahasa.
+
+2. Tab Keterampilan harus mencantumkan semua keterampilan yang relevan dari karyawan perusahaan Anda. Ini adalah daftar keterampilan yang dipilih dan ditambahkan karyawan ke profil mereka. Sebagai contoh, untuk perusahaan IT mungkin ada keterampilan yang disebut "Pemrograman dan Pengembangan Aplikasi" atau "Manajemen Proyek". Jadi pengembang dapat masuk ke profil mereka dan daftar "Pemrograman dan Pengembangan Aplikasi" di bawah keahliannya.
+
+3. Tab Pendidikan harus mencantumkan semua kualifikasi pendidikan yang relevan dengan perusahaan Anda. Ini dapat mencakup entri seperti "Gelar Sarjana" atau "Diploma".
+
+4. Tab Sertifikasi harus mencantumkan semua sertifikasi yang terkait dengan perusahaan Anda. Untuk perusahaan IT mungkin ada sertifikasi bernama "Microsoft Certified Architect".
+
+5. Bahasa daftar bahasa daftar yang perusahaan Anda harapkan untuk digunakan karyawan Anda.
 
 # Otomatisasi
 
