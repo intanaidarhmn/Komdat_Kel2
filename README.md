@@ -28,7 +28,7 @@ Requirements : Untuk menginstall Ice HRM membutuhkan beberapa hal, yaitu :
 
 ## Proses Instalasi 
 #### Instalasi Web Server Virtual
-<em>Sumber: https://github.com/auriza/komdat-lab/blob/master/p01.md<em>
+*Sumber: https://github.com/auriza/komdat-lab/blob/master/p01.md*
 
 1. Masuk ke 'Settings -> Network -> Advanced -> Port Forwarding' dan tambahkan dua aturan berikut.
 
@@ -181,7 +181,7 @@ sudo chown -R www-data:www-data /var/www/html/icehrm/
 sudo chmod -R 755 /var/www/html/icehrm/
 ```
 
-6. Konfigur Apache2
+6. Konfigurasikan Apache2
 
 ```text
 sudo nano /etc/apache2/sites-available/icehrm.conf
@@ -227,7 +227,7 @@ Kemudian pada browser ketik:
 localhost:8000/icehrm
 ```
 
-Kemudian ikuti perintah yang muncul pada screen ketika Ice Hrm pertamakali dibuka. 
+Kemudian ikuti perintah yang muncul pada screen ketika IceHRM pertamakali dibuka. 
 
 Anda dapat login dengan menggunakan username dan password di bawah ini:
 
@@ -237,7 +237,36 @@ password: admin
 
 # Konfigurasi
 
-Bisa ngapain aja ga si
+Jika telah mengunduh dan menginstal ICE HRM atau mendaftar ke layanan yang di hosting, Anda sekarang harus memiliki akses ke versi HRM ICE yang berfungsi. Ini memungkinkan Anda sebagai administrator sistem ini. Jadi sekarang saatnya untuk mulai mengkonfigurasi sistem baru Anda. Dalam tutorial ini **akan dikonfigurasikan** ICE HRM untuk perusahaan IT.
+
+### 1. Menciptakan Struktur Perusahaan
+
+Kita harus mulai dari sini, Anda akan membuat perusahaan yang memiliki dua departemen (Pengembangan dan QA). Nama perusahaan adalah ABC IT.
+
+1. Untuk ini klik pertama pada item menu sisi kiri **"Admin" -> "Struktur Perusahaan"**, dan kemudian tambahkan struktur perusahaan baru menggunakan tombol tambah baru di sudut kanan atas.
+
+2. Di sini Anda tidak perlu memilih *"Parent Structure"* (karena harus ada beberapa struktur yang tidak memiliki *parent structure*)
+
+3. Sekarang pindah dan tambahkan dua departemen lain yang disebut Pengembangan dan QA. Pilih "ABC IT" sebagai *parent structure* dari kedua departemen.
+
+<h1 align="center"><img src="https://0fc17599-a-49dc2a74-s-sites.googlegroups.com/a/gamonoid.com/ice-hrm/getting-started/company%20structure%20list.png?attachauth=ANoY7cqYE7dgnbYcetNn3gPzmiv3hbCi1Kvocvbe5iXtM1t8V2CXcBuv-8fKj_S0f2Lq_BA6CTxVaoVdS-7DC9cGJbwcqYyKby0qbA8smgN-76pdqydtkt4n_ihFLaYXfGme_Z9LPabGx1u3WfUo_8D7kvI8fZ_IKkdrsTQ2bS7WXiqNhXPgUTYoM5fibvMYV8NrE63orT2keEpL76HKLZqVpr_lRwe0jjEbQ2DUhFWmksseGH7fT7eqHTaYcoFJ8zKnvd3oDlXh&attredirects=0"></h1>
+
+4. Dan Anda juga dapat melihat grafik struktur perusahaan. Ini membuat karyawan memiliki pandangan tingkat tinggi tentang bagaimana perusahaan dikelola.
+
+<h1 align="center"><img src="https://0fc17599-a-49dc2a74-s-sites.googlegroups.com/a/gamonoid.com/ice-hrm/getting-started/company%20structure%20graph.png?attachauth=ANoY7crLRb2vgQNIVpU6-5Fgga2hMws7sZqnZB3wv90keGwzRJDlaCr2F-DIFiQUZVVE225CqyolmVXeZXCGPQaZksQvXOfJA8IGhhQiU1B2Pybeargll55HINxQ-OqXEEYqumvqDUDiZQNtfinku6G2KIPghsTIc7meNypeY__fEyAoHJNXxTiJ_YDZV1xzd4aV7k_shatzNGMXKuKqVmh7PgovA-ESxZK2EjluSg5fank-bQ2eMr0rDk5__VY1gOZ--34ri9ES&attredirects=0"></h1>
+
+### 2. Membuat Judul Pekerjaan / Nilai Pembayaran / Status Pekerjaan
+
+1. Klik menu "Admin-> Pekerjaan" dan pilih tab Judul Pekerjaan
+
+2. Sekarang tambahkan dua Judul Pekerjaan (menggunakan tombol Tambah Baru di sudut kanan atas), yaitu Software Engineer dan QA Engineer
+
+<h1 align="center"><img src="https://0fc17599-a-49dc2a74-s-sites.googlegroups.com/a/gamonoid.com/ice-hrm/getting-started/Job%20Titles.png?attachauth=ANoY7cqrzFYNOvIlnboLZtZ9MlZT9dqNZ25mqgAx7-t7r3f2-5malgN7_DXPKpVAmjs8jrYxNE7XH0CkCC-QAl7pSJjlUbSBu0J3kwa0bo6H-VUGTdnThxDsGVIFzCbfPh4SC74GXAqRARkKRGZ64swhlvnadNdy8s6pWaM0Mqk7gG4i3aim3N9G2cNiJQu4AUYhbpumzgPdzKGlDvlpNcw7X8YDjUzYZLmSLGtfIkaE6Ie-ibANyDo%3D&attredirects=0"></h1>
+
+3. Sekarang Pilih tab Nilai Pembayaran dan tambahkan nilai pembayaran baru
+
+<h1 align="center"><img src="https://0fc17599-a-49dc2a74-s-sites.googlegroups.com/a/gamonoid.com/ice-hrm/getting-started/pay%20grade.png?attachauth=ANoY7cq2TMOa41IzXicegFoRnvWNrUzj2CkZIWQYVb_3cE4DTQLuirdbq4j1Vsr08yfTAQM3573At4Wij8zVhf_Fve0q_1dU7FTBm2uQvwGtwEs8IKPV2pjTOM5lNj9S46MBl-uoy20gp9hcOE2liptOiYcp5m2Yq_XJR5__KclrnYJypYFkjFfLf-JL3QZCsDhkgRkL2SrMT7f-0eHS5ABcfMsYOY9ge57b_fnJWEbBj1YgAzvi_Kk%3D&attredirects=0"></h1>
+
 
 # Otomatisasi
 
