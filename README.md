@@ -1,7 +1,4 @@
-<p align="center">
-  <a href="">
-    <img src="https://a.fsdn.com/con/app/proj/icehrm/screenshots/Screen%20Shot%202016-02-09%20at%206.02.27%20AM.png/max/max/1" alt="ice hrm" width=400 height=400>
-  </a>
+![Victory](https://github.com/intanaidarhmn/Komdat_Kel2/blob/master/pict/ice%20hrm.png)
 
 # Apa itu IceHRM?
 [`^ back to top ^`](#)
@@ -291,7 +288,7 @@ Kita harus mulai dari sini, Anda akan membuat perusahaan yang memiliki dua depar
 
 # Cara Pemakaian
 
-...
+
 
 # Pembahasan
 Kelebihan dan kekurangan iceHRM
