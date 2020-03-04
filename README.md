@@ -328,7 +328,19 @@ Kelebihan dan kekurangan iceHRM
 
 Sasaran dari aplikasi ini adalah untuk usaha kecil dan menengah, jadi aplikasi ini mungkin bukan yang terbaik untuk usaha menengah ke atas atau bagi perusahaan perusahaan yang besar.
 
+Perbandingan dengan aplikasi serupa, yaitu OrangeHRM :
+1. Fitur yang dimiliki IceHRM lebih sedikit yaitu sebanyak 5 buah 
+(Manajemen SDM, SDM, Pelacakan Pemohon, Manajemen Perekrutan, Penjadwalan Penggajian) jika
+dibandingkan dengan OrangeHRM yang lebih banyak, yaitu sebanyak 8 buah
+(Applicant Tracking, Attendance Tracking, Employee Monitoring, Employee Onboarding, Employee Scheduling, Employee Tracking, HRWeb-Based HRWorkforce Management, Calendar, Time Tracking)
+
+2. Harga IceHRM lebih murah yaitu sebesar 2$/bulan, jika dibandingkan dengan
+OrangeHRM yang jauh lebih mahal yaitu sebesar 40$/bulan.
+
+3. 
+
 # Referensi
 1. https://icehrm.com/
 2. https://github.com/gamonoid/icehrm
 3. https://entrepreneursquad.id/6-tools-berbasis-teknologi-untuk-hrd/
+4. https://www.itqlick.com/compare/icehrm/orangehrm
